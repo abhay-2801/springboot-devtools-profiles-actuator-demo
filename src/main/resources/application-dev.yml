@@ -1,0 +1,4 @@
+greeting:
+  message: "Hello from DEV profile "
+server:
+  port: 8081

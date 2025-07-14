@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,env
+  endpoint:
+    health:
+      show-details: always
+
+info:
+  app:
+    name: Spring Boot DevTools Profiles Actuator
+    version: 1.0.0

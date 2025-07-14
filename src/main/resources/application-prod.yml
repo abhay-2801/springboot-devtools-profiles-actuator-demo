@@ -1,0 +1,4 @@
+greeting:
+  message: "Hello from PROD profile 🚀"
+server:
+  port: 8080

@@ -1,0 +1,13 @@
+### Greeting endpoint
+GET http://localhost:8080/greeting
+Accept: application/json
+
+###
+
+### Health check (Spring Boot Actuator)
+GET http://localhost:8080/actuator/health
+
+###
+
+### Info (if enabled)
+GET http://localhost:8080/actuator/info
